@@ -1,0 +1,34 @@
+  .view_details{
+    margin-top: 10px;
+  }
+
+  .filter-icon {
+    padding: 5px;
+    cursor: pointer;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+    transition: transform 0.1s ease-in-out;
+
+  }
+  
+  .filter-icon:hover {
+    transform: scale(1.05);
+    color: rgb(68, 68, 68); /* Change the color as desired */
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+  }
+
+
+  .create_patient_button{
+    background-color: #ff8e31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .create_patient_button:hover{
+    color: #ff8e31;
+    background-color: white;
+  }

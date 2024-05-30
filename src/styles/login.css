@@ -1,0 +1,50 @@
+.Login_button{
+    color:#ff8e31;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Clear_button{
+    color:#ff8e31;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.Clear_button:hover{
+    background-color:#ff8e31;
+    color: white;
+}
+
+.Login_button:hover{
+    background-color:#ff8e31;
+    color: white;
+}
+
+.login_heading{
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: transparent; /* Make the text transparent */
+
+    /* background: linear-gradient(to right, #3236fd, #5c71f8);  */
+    background: linear-gradient(to right, #ff8a00, #e52e71); 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Ensure text remains transparent */
+}
+
+.form-contro:hover{
+border-color: #ff8a00;
+}
+
+.clicked {
+    border-color: orange;
+  }
+  
+  .clicked input::placeholder {
+    color: orange;
+  }
+  

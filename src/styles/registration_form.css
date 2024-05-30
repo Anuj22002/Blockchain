@@ -1,0 +1,79 @@
+.register_button{
+    color:#ff8e31;
+    background-color: white;
+        border: none;
+        border-radius: 10px;
+
+}
+
+.Clear_button{
+    color:#ff8e31;
+    background-color: white;
+        border: none;
+        border-radius: 10px;
+
+
+}
+
+.Clear_button:hover{
+    background-color:#ff8e31;
+    color: white;
+}
+
+.register_button:hover{
+    background-color:#ff8e31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.registration_heading{
+      font-family: 'Josefin Sans', sans-serif;
+
+    color: transparent; /* Make the text transparent */
+
+    /* background: linear-gradient(to right, #3236fd, #5c71f8);  */
+    background: linear-gradient(to right, #ff8a00, #e52e71); 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Ensure text remains transparent */
+}
+
+.form-contro:hover{
+border-color: #ff8a00;}
+
+.registration-container{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+/* CSS for the role selection dropdown */
+/* CSS for the role selection dropdown */
+.role-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .role-dropdown select {
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none; /* Remove default arrow icon */
+    margin-left: 10px;
+  }
+  
+  /* Remove border when option menu is clicked */
+  .role-dropdown select:focus {
+    outline: none;
+    border-color: #ccc; /* Optional: revert border color on focus */
+  }
+  
+  /* Style options */
+  .role-dropdown option {
+    background-color: #fff;
+    color: #000;
+  }

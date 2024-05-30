@@ -1,0 +1,32 @@
+.book_appointment_button{
+
+    background-color:#ff8e31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.book_appointment_button:hover{
+    color:#ff8e31;
+    background-color: rgb(253, 244, 238);
+    border: none;
+    border-radius: 10px;
+}
+
+.book_appointment_heading{
+        position: relative;
+        /* font-family: 'Josefin Sans', sans-serif; */
+        /* color: #3236fd; */
+      }
+      
+      .book_appointment_heading::before {
+        background-image: linear-gradient(to right, #ff8e31, #e52e71);
+        border-radius: 8px;
+        bottom: -15px;
+        content: "";
+        height: 4px;
+        left: 39%;
+        position: absolute;
+        width: 23%;
+      }
